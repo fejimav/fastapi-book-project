@@ -7,10 +7,6 @@ WORKDIR /app/
 # Copy the requirements file
 COPY requirements.txt /app/
 
-# Set up a virtual environment and activate
-# python -m venv venv
-# source venv/bin/activate
-
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
